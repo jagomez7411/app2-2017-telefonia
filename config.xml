@@ -15,9 +15,11 @@ Aplicacion que muestra información sobre la telefonía celular en México
 Jose Antonio Gomez Hernandez
 </author>
 
-<allow-intent href="https://www.att.com.mx/index.html"/>
-<acces origin="https://www.att.com.mx/index.html"/>
+<!--<allow-intent href="https://www.att.com.mx/index.html"/>
+<acces origin="https://www.att.com.mx/index.html"/> -->
 
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
 
 <!-- Personaliza la aplicación y plataforma -->
 <preference name="orientation"    value="default"/>
@@ -39,6 +41,7 @@ Jose Antonio Gomez Hernandez
 
 <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
 <!-- Third party plugins -->
+<plugin name=""cordova-plugin-whitelist" sorce="npm"/>
 
 <!--Colocar icono app -->
 
