@@ -8,12 +8,16 @@ version = "1.0.0">
 <name> app2 TELEFONIA CELULAR </name>
 
 <description>
-Apliacacion que muestra información sobre la telefonía celular en México
+Aplicacion que muestra información sobre la telefonía celular en México
 </description>
 
 <author href="https://build.phonegap.com" email="linkdrack@gmail.com">
 Jose Antonio Gomez Hernandez
 </author>
+
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+
 
 <!-- Personaliza la aplicación y plataforma -->
 <preference name="orientation"    value="default"/>
@@ -23,6 +27,7 @@ Jose Antonio Gomez Hernandez
 <preference name="fullscreen" value="true" />
 <preference name="android-installLocation" value="auto"/>
 <preference name="permissions" value="INTERNET" />
+
 
 <!--Plugins-->
 <!--Core plugins-->
