@@ -41,7 +41,7 @@ Jose Antonio Gomez Hernandez
 
 <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
 <!-- Third party plugins -->
-<plugin name=""cordova-plugin-whitelist" sorce="npm"/>
+<plugin name=""cordova-plugin-whitelist" source="npm"/>
 
 <!--Colocar icono app -->
 
