@@ -15,8 +15,8 @@ Aplicacion que muestra información sobre la telefonía celular en México
 Jose Antonio Gomez Hernandez
 </author>
 
-<allow-intent href="https://*/*"/>
-<acces origin="https://*/*"/>
+<allow-intent href="https://www.att.com.mx/index.html"/>
+<acces origin="https://www.att.com.mx/index.html"/>
 
 
 <!-- Personaliza la aplicación y plataforma -->
